@@ -7,7 +7,7 @@ dependencies:
   '@angular/platform-browser': 12.2.6_00e2a6ace8f09dcea7bff678a72f12a0
   '@angular/platform-browser-dynamic': 12.2.6_e6c3b21acc09bb619517ce82a754c7be
   '@angular/router': 12.2.6_200e0485b3e1632cc3e429eac592c9a3
-  gd-sprest: 6.6.0
+  gd-sprest: 6.6.1
   rxjs: 6.6.7
   tslib: 2.3.1
   zone.js: 0.11.4
@@ -4059,16 +4059,16 @@ packages:
     dev: true
     resolution:
       integrity: sha1-LANAXHU4w51+s3sxcCLjJfsBi/c=
-  /gd-sprest-def/1.0.5:
+  /gd-sprest-def/1.0.6:
     dev: false
     resolution:
-      integrity: sha512-xBDVgrEVynFPi5b8CUcpyKwbc2PgiylnfmoZtuylSKuiCaKJ4Cih0dfpVrs9lnbqZ7gnJbMX86xZ8qfuQ+141Q==
-  /gd-sprest/6.6.0:
+      integrity: sha512-IA9MwBmX3Sa6kQhEy3emX3WFzV8noQnE1TNB58qJ300ZQssq2FUnISveq3BqrTgehlRAS6u4/DmCTGcpIqM1kQ==
+  /gd-sprest/6.6.1:
     dependencies:
-      gd-sprest-def: 1.0.5
+      gd-sprest-def: 1.0.6
     dev: false
     resolution:
-      integrity: sha512-52YTPCOpPeTJQPPbfpNYO2JjdS0MF6IGr+vbOmi2g0CXrqZ/WTxG9sK5EJ6HKY32SUBopOtbFY2shjJ/NJFGag==
+      integrity: sha512-lKU/EaD93LOv4+oJ2UWTktLJs8QZZAoOPN0HdcCR81CmE5KqLfmjtCDiZV8edP4E804v+Bo6SKXe8IwQZbDBnA==
   /gensync/1.0.0-beta.2:
     dev: true
     engines:
@@ -8889,7 +8889,7 @@ specifiers:
   '@angular/router': ~12.2.0
   '@types/jasmine': ~3.8.0
   '@types/node': ^12.11.1
-  gd-sprest: ^6.6.0
+  gd-sprest: ^6.6.1
   jasmine-core: ~3.8.0
   karma: ~6.3.0
   karma-chrome-launcher: ~3.1.0
