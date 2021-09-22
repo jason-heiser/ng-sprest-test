@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Web } from 'gd-sprest';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ng-sprest-test';
+  web = Web('http://localhost/').execute(console.log, console.error);
 }
